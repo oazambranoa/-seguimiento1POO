@@ -17,14 +17,14 @@ public class Seguimiento1POO {
     public static void main(String[] args) {
         
         System.out.println("::::::Primer ejercicio::::::::");
-        
+     
         Scanner edad = new Scanner(System.in);
         System.out.println("Ingrese la edad de juan");
-        int edJuan = edad.nextInt();
+        double edJuan = edad.nextDouble();
         
-        int edAlber = 2 * edJuan / 3;
-        int edAna = 4 * edJuan / 3;
-        int edMom = edJuan + edAlber + edAna;
+        double edAlber = 2 * edJuan / 3;
+        double edAna = 4 * edJuan / 3;
+        double edMom = edJuan + edAlber + edAna;
         
         System.out.println("la edad de Juan es: " + edJuan);
         System.out.println("La edad de Alberto es: " + edAlber);
@@ -32,7 +32,7 @@ public class Seguimiento1POO {
         System.out.println("La edad de la mama es: " + edMom);
         
         System.out.println(":::::Segundo ejercicio:::::");
-        
+     
         double suma = 0;
         double x = 20;
         suma = suma + x;
@@ -43,7 +43,7 @@ public class Seguimiento1POO {
         
         
         System.out.println("::::::Tercer ejercicio:::::::");
-        
+         
         double jobHours = 48;
         double  priceHour = 5000;
         double reteFuente = 0.125;
@@ -60,7 +60,7 @@ public class Seguimiento1POO {
         
         Scanner number = new Scanner(System.in);
         System.out.println("Ingrese el numero: ");
-        int inNumber = number.nextInt();
+        double inNumber = number.nextDouble();
         
         double cuadrado = Math.pow(inNumber, 2);
         double cubo = Math.pow(inNumber, 3);
@@ -71,10 +71,10 @@ public class Seguimiento1POO {
                  "El cubo de " + inNumber + " es: " + cubo);
         
         System.out.println(":::::::::Quinto Ejercicio::::::::::::");
-        
+
         Scanner radious = new Scanner(System.in);
         System.out.println("Ingrese el radio del circulo: ");
-        double radio = radious.nextInt();
+        double radio = radious.nextDouble();
         
         double pi = 3.1416;
         double area = pi * Math.pow(radio, 2);
