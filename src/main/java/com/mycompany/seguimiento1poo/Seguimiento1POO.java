@@ -10,7 +10,6 @@ import java.util.Scanner;
  *
  * @author usuario
  */
-import java.util.Scanner;
 
 public class Seguimiento1POO {
 
@@ -72,9 +71,9 @@ public class Seguimiento1POO {
         
         System.out.println(":::::::::Quinto Ejercicio::::::::::::");
 
-        Scanner radious = new Scanner(System.in);
+        Scanner radius = new Scanner(System.in);
         System.out.println("Ingrese el radio del circulo: ");
-        double radio = radious.nextDouble();
+        double radio = radius.nextDouble();
         
         double pi = 3.1416;
         double area = pi * Math.pow(radio, 2);
